@@ -1,0 +1,50 @@
+/* src/components/TableBlock.css */
+
+.table-block {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  background: #f8f9fa;
+}
+
+.table-controls {
+  margin-bottom: 10px;
+  display: flex;
+  gap: 8px;
+}
+
+.table-controls button {
+  padding: 4px 12px;
+  border: 1px solid #dee2e6;
+  background: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.table-controls button:hover {
+  background: #e9ecef;
+}
+
+.table-block table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-block td {
+  border: 1px solid #dee2e6;
+  padding: 4px;
+}
+
+.table-block input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 4px;
+  background: transparent;
+}
+
+.table-block input:focus {
+  background: white;
+}

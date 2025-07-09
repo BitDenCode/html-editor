@@ -1,0 +1,21 @@
+.editor-preview {
+  margin-top: 2rem;
+  padding: 1rem;
+  border-top: 1px solid #444;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: 'Segoe UI', sans-serif;
+  border: 1px solid #e0e0e0;
+  border-radius: 0 0 8px 8px;
+}
+
+.editor-pre h4 {
+  color: rgb(207, 214, 250);
+}
+
+.preview-content blockquote {
+  border-left: 4px solid #666;
+  padding-left: 1em;
+  color: #aaa;
+  font-style: italic;
+}

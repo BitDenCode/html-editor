@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.editor-block {
+  background-color: #121212;
+  padding: 1rem;
+  border-radius: 10px;
+  color: #eee;
+}
+
+.editor-container {
+  border: 1px solid #333;
+  padding: 1rem;
+  min-height: 200px;
+  background-color: #1e1e1e;
+  color: #eee;
+  border-radius: 4px;
+}

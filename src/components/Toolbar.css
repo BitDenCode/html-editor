@@ -1,0 +1,64 @@
+/* src/components/Toolbar.css */
+.toolbar {
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background-color: #1a1a1a;
+  border-bottom: 1px solid #333;
+  flex-wrap: wrap;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px 8px 0 0;
+  align-items: center;
+}
+
+.toolbar-separator {
+  width: 1px;
+  height: 24px;
+  background-color: #e0e0e0;
+  margin: 0 8px;
+}
+
+.toolbar button {
+  background: none;
+  border: none;
+  color: #cfcfcf;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.toolbar button:hover {
+  background-color: #2e2e2e;
+  border-color: #dee2e6;
+}
+
+.toolbar-group {
+  display: flex;
+  gap: 4px;
+}
+
+.toolbar button:active {
+  background-color: #dee2e6;
+}
+
+.toolbar button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.toolbar button:disabled:hover {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.toolbar button.active {
+  background-color: #0ff;
+  color: #1a1a1a;
+  border-color: rgb(26, 221, 221);
+}
+
+.toolbar button.active:hover {
+  background-color: rgb(22, 165, 165);
+  border-color: rgb(26, 221, 221);
+}
