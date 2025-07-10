@@ -528,13 +528,13 @@ const EditorComponent: React.FC<Props> = ({ setHtml }) => {
       </div>
 
       <div className="description-section" style={{ marginTop: '1rem' }}>
-        <label htmlFor="description">Описание:</label>
+        <label htmlFor="description">Заметки:</label>
         <textarea
           id="description"
           value={description}
           onChange={(e) => setDescription(e.target.value)}
           rows={3}
-          placeholder="Введите описание блока..."
+          placeholder="Введите заметки для блока..."
           style={{
             width: '100%',
             padding: '0.5rem',
@@ -544,6 +544,7 @@ const EditorComponent: React.FC<Props> = ({ setHtml }) => {
             border: '1px solid #333',
             borderRadius: '4px',
             resize: 'vertical',
+            boxSizing: 'border-box',
           }}
         />
       </div>
